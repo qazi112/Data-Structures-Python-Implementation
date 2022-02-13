@@ -1,3 +1,12 @@
+# Class For Node
+"""
+    Node -> [(data) and pointer to next node]
+    Create New Node:
+        node = Node(10)
+        It will result in:
+            (data = 10, next = None)
+
+"""
 class Node:
     def __init__(self, data):
         self.data = data
